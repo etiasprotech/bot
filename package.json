@@ -1,0 +1,20 @@
+{
+  "name": "etias-ai-bot",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "engines": {
+    "node": "20.x"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.24.1",
+    "@whiskeysockets/baileys": "^6.7.24",
+    "axios": "^1.20.0",
+    "express": "^4.22.3",
+    "pino": "^9.14.0",
+    "yt-search": "^2.13.1",
+    "qrcode-terminal": "^0.12.0"
+  }
+}
